@@ -10,7 +10,7 @@ install python
 Clone the repository:
 
 bash
-git clone https://github.com/yourusername/pdf-chat-app.git
+git clone https://github.com/sakshi2003-code/Pdf-ChatAppUsingRag.git
 
 create Virtual Environment
 bash 
