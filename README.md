@@ -5,12 +5,20 @@ Overview The PDF Chat App is a conversational interface that allows users to int
 
 Installation
 To set up the PDF Chat App locally, follow these steps:
+install python 
 
 Clone the repository:
 
 bash
 git clone https://github.com/yourusername/pdf-chat-app.git
 
+create Virtual Environment
+bash 
+python -m venv venv
+
+Activate the Virtual Environment
+bash 
+venv\Scripts\activate
 
 cd pdf-chat-app
 Install the required packages:
