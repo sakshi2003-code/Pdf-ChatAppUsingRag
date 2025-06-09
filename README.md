@@ -1,8 +1,3 @@
-Here’s a professional and clear **README.md** file tailored for your repository [Pdf-ChatAppUsingRag](https://github.com/sakshi2003-code/Pdf-ChatAppUsingRag). It highlights the project purpose, features, installation, usage, and contribution guidelines.
-
----
-
-````markdown
 # PDF Chat Application Using Retrieval-Augmented Generation (RAG)
 
 A conversational AI application that allows users to upload PDF documents and interact with their content using Retrieval-Augmented Generation (RAG) techniques. This project leverages advanced NLP models to provide accurate and context-aware answers based on the uploaded PDFs.
