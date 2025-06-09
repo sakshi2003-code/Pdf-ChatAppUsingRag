@@ -1,36 +1,88 @@
-# Pdf-ChatAppUsingRag
-Overview The PDF Chat App is a conversational interface that allows users to interact with PDF documents seamlessly. Leveraging Retrieval-Augmented Generation (RAG) techniques, this app enables intelligent querying and dynamic responses, making it an essential tool for anyone looking to extract information from PDF files efficiently.
+Here’s a professional and clear **README.md** file tailored for your repository [Pdf-ChatAppUsingRag](https://github.com/sakshi2003-code/Pdf-ChatAppUsingRag). It highlights the project purpose, features, installation, usage, and contribution guidelines.
 
+---
 
+````markdown
+# PDF Chat Application Using Retrieval-Augmented Generation (RAG)
 
-Installation
-To set up the PDF Chat App locally, follow these steps:
-install python 
+A conversational AI application that allows users to upload PDF documents and interact with their content using Retrieval-Augmented Generation (RAG) techniques. This project leverages advanced NLP models to provide accurate and context-aware answers based on the uploaded PDFs.
 
-Clone the repository:
+## 🚀 Features
 
-bash
-git clone https://github.com/sakshi2003-code/Pdf-ChatAppUsingRag.git
+- Upload one or multiple PDF files  
+- Extract and index PDF content for quick retrieval  
+- Chat interface to ask questions about the document content  
+- Context-aware responses powered by RAG and large language models  
+- Easy-to-use, interactive UI
 
-create Virtual Environment
-bash 
-python -m venv venv
+## 🛠 Technologies Used
 
-Activate the Virtual Environment
-bash 
-venv\Scripts\activate
+- Python  
+- LangChain / Hugging Face Transformers  
+- Ollama (or other LLM APIs)  
+- Streamlit (for web interface)  
+- PDF parsing libraries (e.g., PyPDF2 or pdfplumber)  
 
-cd pdf-chat-app
-Install the required packages:
+## 📥 Installation
 
-bash
-pip install -r requirements.txt
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/sakshi2003-code/Pdf-ChatAppUsingRag.git
+   cd Pdf-ChatAppUsingRag
+````
 
+2. Create a virtual environment and activate it:
 
-Run the application:
-bash
+   ```bash
+   python -m venv env
+   source env/bin/activate   # On Windows: env\Scripts\activate
+   ```
+
+3. Install required dependencies:
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+4. install ollama model locally.
+
+## ⚙️ Usage
+
+Run the Streamlit app locally:
+
+```bash
 streamlit run app.py
+```
 
-install ollama locally on your pc 
+Open your browser and go to `http://localhost:8501` to interact with the app.
 
-Open your browser and navigate to http://localhost:5000 to start interacting with the app.
+Upload your PDF documents, then ask questions related to the content.
+
+## 📂 Project Structure
+
+* `app.py` — Main Streamlit application
+* `pdf_utils.py` — PDF parsing and text extraction utilities
+* `rag_pipeline.py` — Retrieval-Augmented Generation pipeline logic
+* `requirements.txt` — Project dependencies
+
+## 🤝 Contributing
+
+Contributions are welcome! Feel free to open issues or submit pull requests for improvements, bug fixes, or new features.
+
+Please ensure your code follows the existing style and includes appropriate tests.
+
+## 📄 License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+---
+
+If you find this project useful, please ⭐ the repo!
+
+---
+
+*Created by Sakshi Bijalwan*
+[GitHub Profile](https://github.com/sakshi2003-code) | [LinkedIn](https://www.linkedin.com/in/sakshi-bijalwan/)
+
+
+
